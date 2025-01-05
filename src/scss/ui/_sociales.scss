@@ -13,22 +13,24 @@
             content: '';
             padding: 1.5rem;
             display: inline-block;
+            background-size: cover;
+            background-repeat: no-repeat;
         }
         
         &[href*="facebook.com"]::before{
-            background-image: url(../../assets/img/icono_facebook.svg);
+            background-image: url(../assets/img/icono_facebook.svg);
         }
-        &[href*="twitter.com"]::before{
-            background-image: url(../../assets/img/icono_twitter.svg);
-        }
+        // &[href*="twitter.com"]::before{
+        //     background-image: url(../assets/img/icono_twitter.svg);
+        // }
         &[href*="instagram.com"]::before{
-            background-image: url(../../assets/img/icono_instagram.svg);
+            background-image: url(../assets/img/icono_instagram.svg);
         }
-        &[href*="youtube.com"]::before{
-            background-image: url(../../assets/img/icono_youtube.svg);
-        }
-        &[href*="tiktok.com"]::before{
-            background-image: url(../../assets/img/icono_tiktok.svg);
+        // &[href*="youtube.com"]::before{
+        //     background-image: url(../assets/img/icono_youtube.svg);
+        // }
+        &[href*="tel:5584956420"]::before{
+            background-image: url(../assets/img/icono_phone.svg);
         }
     }
 

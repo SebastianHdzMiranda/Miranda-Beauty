@@ -42,7 +42,7 @@
         background-color: darken(v.$beige, 8%);
         padding: 1.5rem;
         margin: 0 auto;
-        margin-bottom: 2rem;
+        // margin-bottom: 2rem;
         height: 35rem;
         @include m.tablet{
             // display: none;
@@ -53,6 +53,19 @@
     &__iframe{
         width: 100%;
         height: 100%;
+    }
+    &__direccion {
+        color: v.$blanco;
+        padding: .5rem;
+        border: 1px solid v.$blanco;
+        width: 80%;
+        display: block;
+        text-align: center;
+        font-weight: 700;
+        margin: 0 auto;
+        @include m.tablet{
+            width: 100%;
+        }
     }
 
 }

@@ -2,17 +2,10 @@ import { Link } from 'react-router-dom'
 import logo from '../assets/logo.png'
 import Navegacion from './Navegacion'
 import { useEffect, useState } from 'react';
+import { enlaces } from '../data';
 
 function Header() {
     const [menuActivo, setMenuActivo] = useState(false);
-
-    const enlaces = [
-        {titulo: 'Home'},
-        {titulo: 'Nosotros'},
-        {titulo: 'Servicios'},
-        // {titulo: 'Productos'},
-        {titulo: 'Reservar'},
-    ]
 
     // aplica overflow al body
     useEffect(() => {

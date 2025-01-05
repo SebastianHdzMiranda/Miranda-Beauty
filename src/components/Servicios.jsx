@@ -1,11 +1,8 @@
+import { servicios } from "../data";
 import Servicio from "./Servicio";
 
 function Servicios() {
-    const servicios = [
-        {titulo: 'Uñas'},
-        {titulo: 'Pestañas'},
-        {titulo: 'Cejas'},
-    ]; 
+    
 
     return(
         <section className="servicios contenedor" id="servicios">

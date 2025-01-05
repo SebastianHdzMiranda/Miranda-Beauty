@@ -49,10 +49,10 @@
         // transition: all .25s ease;
         transition-property: transform;
         transition-duration: 250ms;
-        height: 15rem;
+        max-height: 20rem;
         object-fit: cover;
         @include m.tablet{
-            height: unset;
+            max-height: unset;
         }
         &:hover{
             transform: scale(1.2);
