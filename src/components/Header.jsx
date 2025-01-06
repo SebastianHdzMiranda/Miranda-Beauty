@@ -3,21 +3,16 @@ import logo from '../assets/logo.png'
 import Navegacion from './Navegacion'
 import { useEffect, useState } from 'react';
 import { enlaces } from '../data';
+import useDisableScroll from '../Hooks/useDisableScroll';
 
 function Header() {
     const [menuActivo, setMenuActivo] = useState(false);
 
-    // aplica overflow al body
-    useEffect(() => {
-      if (menuActivo) {
-        document.body.style.overflowY = 'hidden';
-      }
-      else {
-        document.body.style.overflowY = 'auto';
-      }
-    }, [menuActivo])
-
+    
     const mostrarNav = () => setMenuActivo(!menuActivo);
+    
+    // hook que aplica overflow al body solo a dispositivos moviles
+    useDisableScroll(menuActivo);
 
     return (
         <>
