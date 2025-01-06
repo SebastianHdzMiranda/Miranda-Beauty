@@ -37,7 +37,7 @@ function Header() {
                 </button>
 
 
-                <Navegacion enlaces={enlaces} menuActivo={menuActivo}/>
+                <Navegacion enlaces={enlaces} menuActivo={menuActivo} setMenuActivo={setMenuActivo}/>
                 
             </header>
         </>

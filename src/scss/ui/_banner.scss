@@ -1,0 +1,60 @@
+@use '../bases/variables' as v; 
+@use '../bases/mixins' as m;
+
+.anuncio {
+    background-color: v.$beige;
+    margin: 0;
+    text-align: center;
+    color: v.$blanco;
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    letter-spacing: .3px;
+    @include m.desktop {
+        font-size: 1.7rem;
+    }
+}
+
+.banner {
+    position: relative;
+    .banner__img{
+        padding-bottom: 60%;
+        background-size: cover;
+        background-position: 70% center;
+        @include m.telefono{
+            background-position: right 39%;
+            min-height: 30rem;
+            padding-bottom: 10%;
+        }
+        // &--uñas{
+        //     background-image: linear-gradient(to top, transparentize(v.$beige, .3) 0%, transparentize(v.$negro, 1) 100%), url(../img/manicure-banner2.jpg);
+        //     // background-image:url(../img/manicure-banner2.jpg);
+        // }
+        // &--pestañas{
+        //     background-image: linear-gradient(to top, transparentize(v.$beige, .3) 0%, transparentize(v.$negro, 1) 100%), url(../img/eyelash-banner.avif);
+        // }
+        // &--eyebrows{
+        //     background-image: linear-gradient(to top, transparentize(v.$beige, .3) 0%, transparentize(v.$negro, 1) 100%), url(../img/eyebrows-banner.avif);
+        // }
+        &--nosotros {
+            background-image: linear-gradient(to top, transparentize(v.$beige, .3) 0%, transparentize(v.$negro, 1) 100%), url(../assets/img/salon.jpg);
+
+        }  
+    }
+    &__heading{
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 4rem;
+        color: v.$blanco;
+        right: 0;
+        left: 0;
+        text-align: center;
+        font-size: 4rem;
+
+        @include m.tablet {
+            font-size: 6rem;
+        }
+        // @include m.desktop {
+        //     font-size: 8rem;
+        // }
+    }
+}

@@ -40,12 +40,9 @@
 
         @include m.tablet{
             pointer-events: unset;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             text-transform: uppercase;
             letter-spacing: 2px;  
-        }
-        @include m.desktop{
-            font-size: 1.6rem;
         }
 
         &--activo{
@@ -79,9 +76,6 @@
                 font-size: 1.75rem;
                 padding: 1.3rem 2rem;
                 margin-left: 1rem;
-            }
-            @include m.desktop{
-                font-size: 1.8rem;
             }
         }
     }

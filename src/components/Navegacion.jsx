@@ -1,10 +1,16 @@
 import { Link } from "react-router-dom";
 
-function Navegacion({enlaces, menuActivo}) {
+function Navegacion({enlaces, menuActivo, setMenuActivo}) {
+
+  const handleClick = () => {
+    console.log('Diste click en un enlace')
+    setMenuActivo(!menuActivo);
+  }
+
   return (
     <nav className={`navegacion ${menuActivo ? 'navegacion--activo' : 'navegacion--cerrado'}`}>
         {enlaces.map((enlace, i)=>
-            <Link key={i} to='https://github.com/SebastianHdzMiranda/Miranda-Salon' target="_blank" className={`navegacion__enlace ${!menuActivo && 'navegacion__enlace--cerrado'}`}>
+            <Link key={i} to={enlace.to} className={`navegacion__enlace ${!menuActivo && 'navegacion__enlace--cerrado'}`} onClick={handleClick}>
                 {enlace.titulo}
             </Link>
         )}
