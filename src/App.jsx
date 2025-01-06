@@ -20,7 +20,7 @@ function App() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0 }}
-                transition={{ duration: 0.5, ease: 'easeInOut' }}
+                transition={{ duration: 0.3, ease: 'easeInOut' }}
               >
                 <Home />
               </motion.div>
@@ -33,7 +33,7 @@ function App() {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0 }}
-                transition={{ duration: 0.5, ease: 'easeInOut' }}
+                transition={{ duration: 0.3, ease: 'easeInOut' }}
               >
                 <Nosotros />
               </motion.div>
