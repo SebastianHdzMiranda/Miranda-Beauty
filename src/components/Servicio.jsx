@@ -1,5 +1,7 @@
+import { Link } from "react-router-dom";
+import { servicios } from "../data";
 
-function Servicio({servicios}) {
+function Servicio() {
     return (
         <div className="servicios__grid">
             {servicios.map((servicios, i)=>
@@ -8,7 +10,7 @@ function Servicio({servicios}) {
 
                     <div className="card__info">
                         <h3 className="card__heading">Servicio de <span className="card__span">{servicios.titulo}</span></h3>
-                        <a href="#" className="card__btn">Leer Más</a>
+                        <Link to={servicios.to} className="card__btn">Leer Más</Link>
                     </div>
                 </div>
             )}

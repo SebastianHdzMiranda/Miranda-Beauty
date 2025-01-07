@@ -7,9 +7,9 @@ export const enlaces = [
 ] 
 
 export const servicios = [
-    {titulo: 'Uñas'},
-    {titulo: 'Pestañas'},
-    {titulo: 'Cejas'},
+    {titulo: 'Uñas', to:'/servicio_nails'},
+    {titulo: 'Pestañas', to:'/servicio_lashes'},
+    {titulo: 'Cejas', to:'/servicio_eyebrows'},
 ]; 
 
 export const testimoniales = [
@@ -26,4 +26,22 @@ export const sociales = [
 
 export const equipo = [
     { nombre: 'Luz Miranda', presentacion: 'Amable y apasionada, Miranda te hará sentir inmediatamente parte de la familia. Con más de 13 años como lashista y más de 8 años como artista de uñas, la atención al cliente es su pasión número uno. Su objetivo es garantizar la satisfacción del cliente. El trabajo de Miranda se ha visto en revistas como Cosmopolitan, Java y Arizona Bridal. Le encanta apoyar a otras pequeñas empresas en Phoenix y puede brindarle todas las recomendaciones, como disfrutar de un café con leche con leche de almendras y miel de Lola o regalos locales de Bunky Boutique.'}
+]
+
+export const listadoServicioNails = [
+    {heading:"Vegan manicure", price:"$66", description:"Experience the best of organic and vegan body care with SpaRituals harmonizing tonic soak. We exfoliate with Indonesian ginger scrub and moisturize with our hydrating eucalyptus lotion. This luxury manicure is guaranteed bliss...well wake you up when were done."},
+    {heading:"milk & honey manicure", price:"$66", description:"We invite our clients to experience our detailed manicure with added benefits of fresh milk, pure raw honey and honey granules. Cleopatra's beauty secrets revealed. Fresh milk and raw honey are known to naturally exfoliate, cleanse and fully hydrate the deepest layer of skin leaving hands silky and supple."},
+    {heading:"gel polish manicure", price:"$66", description:"Cuticles Nail Spa carries gel polish from CND and OPI in a variety of colors. It goes on like polish and wears like gel."},
+]
+
+export const listadoServicioLashes = [
+    {heading:"Vegan pestañas", price:"$66", description:"Experience the best of organic and vegan body care with SpaRituals harmonizing tonic soak. We exfoliate with Indonesian ginger scrub and moisturize with our hydrating eucalyptus lotion. This luxury manicure is guaranteed bliss...well wake you up when were done."},
+    {heading:"milk & honey manicure", price:"$66", description:"We invite our clients to experience our detailed manicure with added benefits of fresh milk, pure raw honey and honey granules. Cleopatra's beauty secrets revealed. Fresh milk and raw honey are known to naturally exfoliate, cleanse and fully hydrate the deepest layer of skin leaving hands silky and supple."},
+    {heading:"gel polish manicure", price:"$66", description:"Cuticles Nail Spa carries gel polish from CND and OPI in a variety of colors. It goes on like polish and wears like gel."},
+]
+
+export const listadoServicioEyebrows = [
+    {heading:"Vegan cejas", price:"$66", description:"Experience the best of organic and vegan body care with SpaRituals harmonizing tonic soak. We exfoliate with Indonesian ginger scrub and moisturize with our hydrating eucalyptus lotion. This luxury manicure is guaranteed bliss...well wake you up when were done."},
+    {heading:"milk & honey manicure", price:"$66", description:"We invite our clients to experience our detailed manicure with added benefits of fresh milk, pure raw honey and honey granules. Cleopatra's beauty secrets revealed. Fresh milk and raw honey are known to naturally exfoliate, cleanse and fully hydrate the deepest layer of skin leaving hands silky and supple."},
+    {heading:"gel polish manicure", price:"$66", description:"Cuticles Nail Spa carries gel polish from CND and OPI in a variety of colors. It goes on like polish and wears like gel."},
 ]
