@@ -1,0 +1,51 @@
+@use '../bases/variables' as v; 
+@use '../bases/mixins' as m;
+
+.contacto{
+    margin-block: 5rem;
+
+    @include m.tablet {
+        max-width: 60%;
+    }
+
+    
+}
+
+
+
+.formulario {
+
+    &__campo{
+        margin-bottom: 2rem;
+    }
+
+    &__label{
+        display: block;
+        margin-bottom: .5rem;
+        font-size: 2.2rem;
+        text-transform: uppercase;
+    }
+
+    &__input{
+        padding: 1rem;
+        width: 100%;
+        border: 5px solid v.$beige;
+        &:focus {
+            overflow: none;
+            outline: none;
+        }
+    }
+        
+    &__boton{
+        background-color: v.$beige;
+        width: 100%;
+        border: none;
+        padding: 1rem;
+        font-weight: 700;
+        color: v.$blanco;
+        text-transform: uppercase;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+}

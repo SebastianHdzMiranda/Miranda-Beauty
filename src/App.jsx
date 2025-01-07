@@ -4,6 +4,9 @@ import Nosotros from './pages/Nosotros';
 import './scss/app.scss';
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { AnimatePresence, motion } from 'framer-motion';
+import ServiciosPage from './pages/ServiciosPage';
+import Footer from './components/Footer';
+import Reservar from './pages/Reservar';
 
 function App() {
   const location = useLocation();
@@ -39,8 +42,37 @@ function App() {
               </motion.div>
             }
           />
+
+          <Route 
+            path="/servicios"
+            element={
+              <motion.div 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.4, ease: 'easeInOut' }}
+              >
+                <ServiciosPage />
+              </motion.div>
+            }
+          />
+
+          <Route 
+            path="/reservar"
+            element={
+              <motion.div 
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.4, ease: 'easeInOut' }}
+              >
+                <Reservar />
+              </motion.div>
+            }
+          />
         </Routes>
       </AnimatePresence>
+      <Footer />
     </>
   );
 }

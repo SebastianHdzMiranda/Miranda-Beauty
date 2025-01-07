@@ -1,12 +1,11 @@
 import React from 'react'
-import Banner from '../components/nosotros/Banner'
 import Conocenos from '../components/nosotros/Conocenos'
-import Footer from '../components/Footer'
 import { equipo } from '../data'
+import Hero from '../components/Hero'
 function Nosotros() {
   return (
     <>
-      <Banner />
+      <Hero info={{img: 'nosotros', title: 'Sobre Nosotros'}}/>
       <Conocenos />
       <div className="content">
           <div className="content__contenido contenedor">
@@ -23,7 +22,6 @@ function Nosotros() {
             </div>
           )}
       </section>
-      <Footer />
     </>
   )
 }

@@ -39,6 +39,13 @@
             background-image: linear-gradient(to top, transparentize(v.$beige, .3) 0%, transparentize(v.$negro, 1) 100%), url(../assets/img/salon.jpg);
 
         }  
+        &--servicios {
+            background-image: linear-gradient(to top, transparentize(v.$beige, .3) 0%, transparentize(v.$negro, 1) 100%), url(../assets/img/serviciosHero.jpg);
+        }  
+        &--reservar {
+            background-image: linear-gradient(to top, transparentize(v.$beige, .3) 0%, transparentize(v.$negro, 1) 100%), url(../assets/img/reservarHero.jpg);
+            background-position: center;
+        }  
     }
     &__heading{
         position: absolute;
@@ -53,8 +60,5 @@
         @include m.tablet {
             font-size: 6rem;
         }
-        // @include m.desktop {
-        //     font-size: 8rem;
-        // }
     }
 }

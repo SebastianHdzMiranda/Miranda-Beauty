@@ -1,11 +1,8 @@
 import { Link } from "react-router-dom";
 
 function Navegacion({enlaces, menuActivo, setMenuActivo}) {
-
-  const handleClick = () => {
-    console.log('Diste click en un enlace')
-    setMenuActivo(!menuActivo);
-  }
+    
+  const handleClick = () => setMenuActivo(!menuActivo);
 
   return (
     <nav className={`navegacion ${menuActivo ? 'navegacion--activo' : 'navegacion--cerrado'}`}>
