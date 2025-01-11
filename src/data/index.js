@@ -45,3 +45,8 @@ export const listadoServicioEyebrows = [
     {heading:"milk & honey manicure", price:"$66", description:"We invite our clients to experience our detailed manicure with added benefits of fresh milk, pure raw honey and honey granules. Cleopatra's beauty secrets revealed. Fresh milk and raw honey are known to naturally exfoliate, cleanse and fully hydrate the deepest layer of skin leaving hands silky and supple."},
     {heading:"gel polish manicure", price:"$66", description:"Cuticles Nail Spa carries gel polish from CND and OPI in a variety of colors. It goes on like polish and wears like gel."},
 ]
+
+
+export const imageUrls= [
+    'https://res.cloudinary.com/dfxi2xyyw/image/upload/v1736566647/serviciosHero_h5ch0i.jpg',
+]
