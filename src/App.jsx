@@ -63,7 +63,7 @@ function App() {
             }
           />
 
-          <Route 
+          {/* <Route 
             path="/reservar"
             element={
               <motion.div 
@@ -75,7 +75,7 @@ function App() {
                 <Reservar />
               </motion.div>
             }
-          />
+          /> */}
 
           <Route 
             path="/servicio_nails"

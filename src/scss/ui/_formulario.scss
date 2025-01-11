@@ -30,9 +30,14 @@
         padding: 1rem;
         width: 100%;
         border: 5px solid v.$beige;
+        transition: border .5s ease;
         &:focus {
             overflow: none;
             outline: none;
+        }
+        &--error {
+            border: 5px solid #d74b4bb5;
+            border-left: 10px solid #d74b4bb5;
         }
     }
         
@@ -48,4 +53,9 @@
         cursor: pointer;
     }
 
+}
+.errorText {
+    font-size: 1.5rem;
+    margin: .5rem 0 0 0;
+    color: #d74b4bb5;
 }

@@ -3,7 +3,7 @@ export const enlaces = [
     {titulo: 'Nosotros', to:'/nosotros'},
     {titulo: 'Servicios', to:'/servicios'},
     // {titulo: 'Productos'},
-    {titulo: 'Reservar', to:'/reservar'},
+    {titulo: 'Reservar', to:'https://wa.me/message/PT6DTZPIUFYNJ1'},
 ] 
 
 export const servicios = [
