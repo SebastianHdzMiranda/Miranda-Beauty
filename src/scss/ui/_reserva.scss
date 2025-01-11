@@ -27,3 +27,15 @@
         color: v.$negro;
     }
 }
+
+.btn-reservar {
+    color: v.$blanco;
+    background-color: v.$beige;
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.75rem;
+    // font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+}

@@ -29,7 +29,7 @@
         // &[href*="youtube.com"]::before{
         //     background-image: url(../assets/img/icono_youtube.svg);
         // }
-        &[href*="tel:5584956420"]::before{
+        &[href*="tel:"]::before{
             background-image: url(../assets/img/icono_phone.svg);
         }
     }

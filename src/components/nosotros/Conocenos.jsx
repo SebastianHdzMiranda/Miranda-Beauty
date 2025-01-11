@@ -5,8 +5,8 @@ function Conocenos() {
     return (
         <div className="nosotros contenedor">
             <h2 className="nosotros__heading">Conoce</h2>
-            <h2 className="nosotros__subHeading">Nuestra Historia</h2>
-            <p className="nosotros__texto">Juniper was founded in 2015 in a 1930’s historic studio. After 3 years Leah and Alexis decided to expand in Midtown Phoenix. We wanted to create a space where you feel like home, except you have built in caregivers to release the tensions of day to day stress. Self care is important and we want it to be easy for you to have a place to recharge your energy and well-being. Our aesthetic incorporates raw elements and natural materials. We carry a wide variety of products like organic and medical skincare for all skin types, chinese herbal medicine, essential oils and CBD.</p>
+            <h2 className="nosotros__subHeading">Nuestro objetivo</h2>
+            <p className="nosotros__texto">En nuestro salón, buscamos ofrecer un espacio donde cada visita se convierta en una experiencia única de belleza y cuidado personal. Con la pasión por realzar lo mejor de ti, nos dedicamos a brindar servicios de alta calidad y atención personalizada en un ambiente acogedor y relajante. Creemos que el autocuidado es esencial y queremos ser el lugar donde puedas desconectarte del estrés y disfrutar de un servicio que resalte tu estilo. Cada detalle ha sido pensado para que te sientas renovada. ¡Nos encantaría ser parte de tu rutina de belleza!</p>
             <div className="nosotros__img">
                 <img loading="lazy" decoding="async" src={nosotrosImg} width="500" height="300" alt="img nosotros"></img>
             </div>

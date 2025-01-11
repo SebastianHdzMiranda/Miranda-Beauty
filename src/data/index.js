@@ -19,13 +19,13 @@ export const testimoniales = [
 ]
 
 export const sociales = [
-    { nombre: 'Telefono', href: 'tel:5584956420'},
+    { nombre: 'Telefono', href: 'tel:5626864988'},
     { nombre: 'Facebook', href: 'https://www.facebook.com/miranda.cruz.9849'},
     { nombre: 'Instagram', href: 'https://www.instagram.com/'},
 ]
 
 export const equipo = [
-    { nombre: 'Luz Miranda', presentacion: 'Amable y apasionada, Miranda te hará sentir inmediatamente parte de la familia. Con más de 13 años como lashista y más de 8 años como artista de uñas, la atención al cliente es su pasión número uno. Su objetivo es garantizar la satisfacción del cliente. El trabajo de Miranda se ha visto en revistas como Cosmopolitan, Java y Arizona Bridal. Le encanta apoyar a otras pequeñas empresas en Phoenix y puede brindarle todas las recomendaciones, como disfrutar de un café con leche con leche de almendras y miel de Lola o regalos locales de Bunky Boutique.'}
+    { nombre: 'Luz Miranda', presentacion: 'Con una pasión por el cuidado personal y la belleza, Luz Miranda es una profesional dedicada con años de experiencia como lashista y manicurista. Su compromiso con la calidad y el detalle la han llevado a especializarse en técnicas innovadoras para resaltar la belleza única de cada cliente. Luz cree firmemente en la importancia de una atención personalizada y siempre se asegura de que cada visita sea una experiencia satisfactoria. Con estudios y formación continua en el arte de las uñas y las extensiones de pestañas, está constantemente actualizándose para ofrecer los mejores servicios y resultados. Su enfoque amable y profesional hace que cada cliente se sienta cuidado y en buenas manos.'}
 ]
 
 export const listadoServicioNails = [

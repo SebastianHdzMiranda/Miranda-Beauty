@@ -1,52 +1,55 @@
-import { useForm } from "react-hook-form"
-import Error from "./Error";
-import { useState } from "react";
-import { listadoServicioEyebrows, listadoServicioLashes, listadoServicioNails } from "../data";
+// import { useForm } from "react-hook-form"
+// import Error from "./Error";
+// import { useState } from "react";
+
+import { Link } from "react-router-dom"
+
+// import { listadoServicioEyebrows, listadoServicioLashes, listadoServicioNails } from "../data";
 function Formulario() {
-    const [servicios, setServicios] = useState('');
+    // const [servicios, setServicios] = useState('');
 
-    const { register, handleSubmit, formState: {errors}, clearErrors} = useForm()
+    // const { register, handleSubmit, formState: {errors}, clearErrors} = useForm()
 
-    const handleServices = (e)  => {
-        setServicios(e.target.value);
-        clearErrors("servicios");
-    }
+    // const handleServices = (e)  => {
+    //     setServicios(e.target.value);
+    //     clearErrors("servicios");
+    // }
 
-    const ServiceListType = () => {
-        if (servicios === 'nails') {
-            return(
-                listadoServicioNails.map( (servicio,i) => 
-                    <option key={i} value={servicio.heading}>{servicio.heading}--{servicio.price}</option>
-                )
-            )
-        } 
-        if (servicios === 'lashes') {
-            return(
-                listadoServicioLashes.map( (servicio,i) => 
-                    <option key={i} value={servicio.heading}>{servicio.heading}--{servicio.price}</option>
-                )
-            )
-        } 
+    // const ServiceListType = () => {
+    //     if (servicios === 'nails') {
+    //         return(
+    //             listadoServicioNails.map( (servicio,i) => 
+    //                 <option key={i} value={servicio.heading}>{servicio.heading}--{servicio.price}</option>
+    //             )
+    //         )
+    //     } 
+    //     if (servicios === 'lashes') {
+    //         return(
+    //             listadoServicioLashes.map( (servicio,i) => 
+    //                 <option key={i} value={servicio.heading}>{servicio.heading}--{servicio.price}</option>
+    //             )
+    //         )
+    //     } 
 
-        if (servicios === 'eyebrows') {
-            return(
-                listadoServicioEyebrows.map( (servicio,i) => 
-                    <option key={i} value={servicio.heading}>{servicio.heading}--{servicio.price}</option>
-                )
-            )
-        } 
-        if (servicios === '') {
-            return (<option >-- Elige el servicio --</option>);
-        } 
-    }
+    //     if (servicios === 'eyebrows') {
+    //         return(
+    //             listadoServicioEyebrows.map( (servicio,i) => 
+    //                 <option key={i} value={servicio.heading}>{servicio.heading}--{servicio.price}</option>
+    //             )
+    //         )
+    //     } 
+    //     if (servicios === '') {
+    //         return (<option >-- Elige el servicio --</option>);
+    //     } 
+    // }
 
-    const registerReserv = () => {
-        console.log('Nueva reservacion');
-    }
+    // const registerReserv = () => {
+    //     console.log('Nueva reservacion');
+    // }
 
     return (
         <div className="contacto contenedor">
-            <form 
+            {/* <form 
                 className='formulario' id="formulario"
                 onSubmit={handleSubmit(registerReserv)}
             >
@@ -137,7 +140,9 @@ function Formulario() {
                     value="Siguiente" 
                 />
                 
-            </form>
+            </form> */}
+
+            <Link className="btn-reservar" to={'https://wa.me/message/PT6DTZPIUFYNJ1'} target="_blank">Reservar</Link>
         </div>
     )
 }
