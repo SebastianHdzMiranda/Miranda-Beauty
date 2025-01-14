@@ -22,10 +22,10 @@
         padding: 0.8rem;
     }
     &__logo{
-        width: 6rem;
+        width: 7rem;
         display: inline;
         @include m.tablet{
-            width: 8rem;
+            width: 10rem;
             padding-bottom: 3rem;
             margin: 0 auto;
             padding-bottom: unset;
