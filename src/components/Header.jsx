@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import logo from '../assets/logo.png'
+import logo from '../assets/MirandaBeautyLogo.svg'
 import Navegacion from './Navegacion'
 import { useEffect, useState } from 'react';
 import { enlaces } from '../data';

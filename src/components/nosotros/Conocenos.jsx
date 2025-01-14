@@ -1,7 +1,8 @@
-import nosotrosImg from '../../assets/img/manicure.jpg';
-
+import { generateImageUrl } from "../../data/generateImageUrls";
 
 function Conocenos() {
+    const nosotrosImg = generateImageUrl('manicure-banner_f6duzs');
+    
     return (
         <div className="nosotros contenedor">
             <h2 className="nosotros__heading">Conoce</h2>

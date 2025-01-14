@@ -6,7 +6,7 @@ function Servicio() {
         <div className="servicios__grid">
             {servicios.map((servicios, i)=>
                 <div key={i} className="card">
-                    <div className={`card__imgContainer card__imgContainer--${i+1}`}></div>
+                    <div className={`card__imgContainer`} style={{ backgroundImage: `url(${servicios.img})` }}></div>
 
                     <div className="card__info">
                         <h3 className="card__heading">Servicio de <span className="card__span">{servicios.titulo}</span></h3>
@@ -17,5 +17,6 @@ function Servicio() {
         </div>
     );
 }
+// backgroundimage: url(../assets/img/servicio_1.jpg);
 
 export default Servicio

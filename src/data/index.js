@@ -1,3 +1,9 @@
+import { generateImageUrl } from "./generateImageUrls";
+
+const nailsImg = generateImageUrl('servicio_1_osfbhx');
+const lashesImg = generateImageUrl('servicio_2_cho05u');
+const eyebrowsImg = generateImageUrl('servicio_3_a7f4lw');
+
 export const enlaces = [
     {titulo: 'Home', to: '/'},
     {titulo: 'Nosotros', to:'/nosotros'},
@@ -7,9 +13,9 @@ export const enlaces = [
 ] 
 
 export const servicios = [
-    {titulo: 'Uñas', to:'/servicio_nails'},
-    {titulo: 'Pestañas', to:'/servicio_lashes'},
-    {titulo: 'Cejas', to:'/servicio_eyebrows'},
+    {titulo: 'Uñas', to:'/servicio_nails', img: nailsImg},
+    {titulo: 'Pestañas', to:'/servicio_lashes', img: lashesImg},
+    {titulo: 'Cejas', to:'/servicio_eyebrows', img: eyebrowsImg},
 ]; 
 
 export const testimoniales = [

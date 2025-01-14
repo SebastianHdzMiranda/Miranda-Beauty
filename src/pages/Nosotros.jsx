@@ -2,10 +2,14 @@ import React from 'react'
 import Conocenos from '../components/nosotros/Conocenos'
 import { equipo } from '../data'
 import Hero from '../components/Hero'
+import { generateImageUrl } from '../data/generateImageUrls'
 function Nosotros() {
+
+  const nosotrosImg = generateImageUrl('salon_i77qy5');
+
   return (
     <>
-      <Hero info={{img: 'nosotros', title: 'Sobre Nosotros'}}/>
+      <Hero info={{img: nosotrosImg, title: 'Sobre Nosotros'}}/>
       <Conocenos />
       <div className="content">
           <div className="content__contenido contenedor">

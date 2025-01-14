@@ -5,7 +5,6 @@ import { generateImageUrl } from "../data/generateImageUrls"
 function Banner() {
 
   const bannerImg = generateImageUrl('hero_bzwsjw');
-  console.log(bannerImg);
 
   return (
     <Animation>
