@@ -17,7 +17,7 @@
     height: 0;
     // height: calc(100% - 59px);
     overflow: hidden;
-    transition: opacity .35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: opacity .50s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     opacity: 0;
     @include m.tablet{
         height: unset;
