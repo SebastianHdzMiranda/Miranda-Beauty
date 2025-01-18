@@ -2,7 +2,7 @@ import { generateImageUrl } from "../data/generateImageUrls";
 
 function Conocenos() {
 
-    const bannerImg = generateImageUrl('salon_i77qy5');
+    const bannerImg = generateImageUrl('szq2m7y1nga3awgxfpea');
 
     return(
         <section className="conocenos">

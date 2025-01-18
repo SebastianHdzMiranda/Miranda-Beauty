@@ -5,7 +5,7 @@ import Hero from '../components/Hero'
 import { generateImageUrl } from '../data/generateImageUrls'
 function Nosotros() {
 
-  const nosotrosImg = generateImageUrl('salon_i77qy5');
+  const nosotrosImg = generateImageUrl('b8shmdjvny1yda0cy9q7');
 
   return (
     <>

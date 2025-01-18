@@ -21,7 +21,8 @@
         background-size: cover;
         background-position: 70% center;
         @include m.telefono{
-            background-position: right 39%;
+            // background-position: right 39%;
+            background-position: center 55%;
             min-height: 30rem;
             padding-bottom: 10%;
         }
