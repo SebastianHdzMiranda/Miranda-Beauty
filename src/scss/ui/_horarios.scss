@@ -33,11 +33,11 @@
     }
     &__img{
         // display: none;
-        height: 35rem;
+        height: 30rem;
         // background-image: url(../assets/img/salon.jpg);
         background-repeat: no-repeat;
         background-size: cover;
-        background-position: right center;
+        background-position: center;
         position: relative;
         @include m.tablet{
             display: block;
@@ -45,8 +45,8 @@
             background-position: center;
         }
         @include m.desktop{
-            background-position: right center;
-            height: 60rem;
+            background-position: center;
+            height: 50rem;
         }
         &::before{
             content: '';
