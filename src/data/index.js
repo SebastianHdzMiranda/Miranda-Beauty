@@ -1,7 +1,7 @@
 import { generateImageUrl } from "./generateImageUrls";
 
 const nailsImg = generateImageUrl('servicio_1_osfbhx');
-const lashesImg = generateImageUrl('servicio_2_cho05u');
+const lashesImg = generateImageUrl('kiamil5jr98te9aqyy5s');
 const eyebrowsImg = generateImageUrl('servicio_3_a7f4lw');
 
 export const enlaces = [
@@ -26,8 +26,8 @@ export const testimoniales = [
 
 export const sociales = [
     { nombre: 'Telefono', href: 'tel:5626864988'},
-    { nombre: 'Facebook', href: 'https://www.facebook.com/miranda.cruz.9849'},
-    { nombre: 'Instagram', href: 'https://www.instagram.com/'},
+    // { nombre: 'Facebook', href: 'https://www.facebook.com/miranda.cruz.9849'},
+    { nombre: 'Instagram', href: 'https://www.instagram.com/miranda_beauty13/'},
 ]
 
 export const equipo = [

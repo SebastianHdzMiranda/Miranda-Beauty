@@ -8,8 +8,8 @@ function Footer() {
 
                 <div className="footer__seccion">
                     <h3 className="footer__heading">Horario</h3>
-                    <p className="footer__texto">Lun-Vie: 9AM - 7PM</p>
-                    <p className="footer__texto">Sábado: 9AM - 2PM</p>
+                    <p className="footer__texto">Lun-Vie: 11AM - 7PM</p>
+                    <p className="footer__texto">Sábado: 10AM - 4PM</p>
                     <p className="footer__texto">Domingo: Cerrado</p>
                 </div>
                 <Animation>
